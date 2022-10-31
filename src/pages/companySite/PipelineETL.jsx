@@ -7,7 +7,7 @@ import PipelineCheck from './compSite-section/PipelineCheck';
 
 export default function PipelineETL() {
 
-    useEffect(() => { document.title = "Pipeline ETL - Lumachain CosmosDB"; });
+    useEffect(() => { document.title = "Pipeline - Lumachain CosmosDB"; });
 
     return (
         <div className="flex flex-col min-h-screen overflow-hidden">

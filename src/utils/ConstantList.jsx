@@ -1,105 +1,105 @@
 export const companyNameOrdered = [
     {
-        name: "Cargill",
+        name: "A-Com",
     },
     {
-        name: "Amick",
+        name: "B-Com",
     },
     {
-        name: "JBS",
+        name: "C-Com",
     },
     {
-        name: "OSI",
+        name: "D-Com",
     },
     {
-        name: "Tegal",
+        name: "E-Com",
     },
     {
-        name: "Teys",
+        name: "F-Com",
     },
     {
-        name: "Turosi",
+        name: "G-Com",
     },
     {
-        name: "Tyson",
+        name: "H-Com",
     },
 ]
 
 export const camera = [
     {
-        name: "AmickSC",
+        name: "A-Camera",
     },
     {
-        name: "AmickSCLesion",
+        name: "B-Camera",
     },
     {
-        name: "EagleFarmQD",
+        name: "C-Camera",
     },
     {
-        name: "EagleFarmLavarack",
+        name: "D-Camera",
     },
     {
-        name: "JBSBordertown",
+        name: "E-Camera",
     },
     {
-        name: "JBSBrooklyn",
+        name: "F-Camera",
     },
     {
-        name: "TegalCam",
+        name: "G-Camera",
     },
     {
-        name: "TysonCam",
+        name: "H-Camera",
     },
 ]
 
 export const allOrder = [
     {
-        name: "Amick",
+        name: "A-Com",
     },
     {
-        name: "AmickSC",
+        name: "A-Camera",
     },
     {
-        name: "AmickSCLesion",
+        name: "B-Com",
     },
     {
-        name: "Cargill",
+        name: "B-Camera",
     },
     {
-        name: "EagleFarmQD",
+        name: "C-Com",
     },
     {
-        name: "EagleFarmLavarack",
+        name: "C-Camera",
     },
     {
-        name: "JBS",
+        name: "D-Com",
     },
     {
-        name: "JBSBordertown",
+        name: "D-Camera",
     },
     {
-        name: "JBSBrooklyn",
+        name: "E-Com",
     },
     {
-        name: "OSI",
+        name: "E-Camera",
     },
     {
-        name: "Tegal",
+        name: "F-Com",
     },
     {
-        name: "TegalCam",
+        name: "F-Camera",
     },
     {
-        name: "Teys",
+        name: "G-Com",
     },
     {
-        name: "Turosi",
+        name: "G-Camera",
     },
     {
-        name: "Tyson",
+        name: "H-Com",
     },
     {
-        name: "TysonCam",
+        name: "H-Camera",
     },
 ]
 
@@ -108,95 +108,104 @@ export const allGrouped = [
         start: "A",
         each: [
             {
-                name: "Amick",
-                path: "/comp/Amick"
+                name: "A-Com",
+                path: "/comp/A"
             },
             {
-                name: "AmickSC",
-                path: "/cam/AmickSC"
+                name: "A-Camera",
+                path: "/cam/ACamera"
             },
-            {
-                name: "AmickSCLesion",
-                path: "/cam/AmickSCLesion"
-            }
         ],
-
+    },
+    {
+        start: "B",
+        each: [
+            {
+                name: "B-Com",
+                path: "/comp/B"
+            },
+            {
+                name: "B-Camera",
+                path: "/cam/BCamera"
+            },
+        ],
     },
     {
         start: "C",
         each: [
             {
-                name: "Cargill",
-                path: "/comp/Cargill"
-            }
-        ]
+                name: "C-Com",
+                path: "/comp/C"
+            },
+            {
+                name: "C-Camera",
+                path: "/cam/CCamera"
+            },
+        ],
+    },
+    {
+        start: "D",
+        each: [
+            {
+                name: "D-Com",
+                path: "/comp/D"
+            },
+            {
+                name: "D-Camera",
+                path: "/cam/DCamera"
+            },
+        ],
     },
     {
         start: "E",
         each: [
             {
-                name: "EagleFarmQD",
-                path: "/cam/EagleFarmQD"
+                name: "E-Com",
+                path: "/comp/E"
             },
             {
-                name: "EagleFarmLavarack",
-                path: "/cam/EagleFarmLavarack"
-            }
-        ]
+                name: "E-Camera",
+                path: "/cam/ECamera"
+            },
+        ],
     },
     {
-        start: "J",
+        start: "F",
         each: [
             {
-                name: "JBS",
-                path: "/comp/JBS"
+                name: "F-Com",
+                path: "/comp/F"
             },
             {
-                name: "JBSBordertown",
-                path: "/comp/JBSBordertown"
+                name: "F-Camera",
+                path: "/cam/FCamera"
             },
-            {
-                name: "JBSBrooklyn",
-                path: "/comp/JBSBrooklyn"
-            }
-        ]
+        ],
     },
     {
-        start: "O",
+        start: "G",
         each: [
             {
-                name: "OSI",
-                path: "/comp/OSI"
-            }
-        ]
+                name: "G-Com",
+                path: "/comp/G"
+            },
+            {
+                name: "G-Camera",
+                path: "/cam/GCamera"
+            },
+        ],
     },
     {
-        start: "T",
+        start: "H",
         each: [
             {
-                name: "Tegal",
-                path: "/comp/Tegal"
+                name: "H-Com",
+                path: "/comp/H"
             },
             {
-                name: "TegalCam",
-                path: "/cam/TegalCam"
+                name: "H-Camera",
+                path: "/cam/HCamera"
             },
-            {
-                name: "Teys",
-                path: "/comp/Teys"
-            },
-            {
-                name: "Turosi",
-                path: "/comp/Turosi"
-            },
-            {
-                name: "Tyson",
-                path: "/comp/Tyson"
-            },
-            {
-                name: "TysonCam",
-                path: "/cam/TysonCam"
-            }
-        ]
+        ],
     },
 ]

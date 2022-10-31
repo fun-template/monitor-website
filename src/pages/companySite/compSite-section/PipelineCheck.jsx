@@ -34,20 +34,20 @@ export default function PipelineCheck() {
 
                                         <button className="flex py-3 border-b border-gray-200 dark:border-gray-800 hover:underline" onClick={() => setProduct('1')}>
                                             <h3 className="font-red-hat-display font-bold tracking-tight mb-1">
-                                                chicken-lesion-aggregation
+                                                Some Tag-1
                                             </h3>
                                         </button>
 
                                         <button className="flex py-3 border-b border-gray-200 dark:border-gray-800 hover:underline" onClick={() => setProduct('2')}>
 
                                             <h3 className="font-red-hat-display font-bold tracking-tight mb-1">
-                                                chicken-archive
+                                                Some Tag-2
                                             </h3>
                                         </button>
 
                                         <button className="flex py-3 border-b border-gray-200 dark:border-gray-800 hover:underline" onClick={() => setProduct('3')}>
                                             <h3 className="font-red-hat-display font-bold tracking-tight mb-1">
-                                                chicken-yield
+                                                Some Tag-3
                                             </h3>
                                         </button>
 
@@ -69,13 +69,13 @@ export default function PipelineCheck() {
                                         <article className="bg-gray-500 dark:bg-gray-400 text-teal-400 dark:text-teal-700 flex flex-col h-full">
                                             <header>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    prod-turosi-thomastown-linux
+                                                    A-production
                                                 </h3>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    56775a54-5671-42c7-9d71-a3b10732e5e4
+                                                    56775a54-5671
                                                 </h3>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    56775a54-5671-42c7-9d71-a3b10732e5e4
+                                                    56775a54-5671
                                                 </h3>
                                             </header>
                                             <footer className="flex items-center">
@@ -91,13 +91,13 @@ export default function PipelineCheck() {
                                         <article className="bg-gray-500 dark:bg-gray-400 text-red-300 dark:text-red-700 flex flex-col h-full">
                                             <header>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    prod-turosi-thomastown-linux
+                                                    A-Process
                                                 </h3>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    56775a54-5671-42c7-9d71-a3b10732e5e4
+                                                    56775a54-5671
                                                 </h3>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    56775a54-5671-42c7-9d71-a3b10732e5e4
+                                                    56775a54-5671
                                                 </h3>
                                             </header>
                                             <footer className="flex items-center">
@@ -113,13 +113,13 @@ export default function PipelineCheck() {
                                         <article className="bg-gray-500 dark:bg-gray-400 text-teal-300 dark:text-teal-700 flex flex-col h-full">
                                             <header>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    prod-turosi-thomastown-linux
+                                                    B-Monitor
                                                 </h3>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    56775a54-5671-42c7-9d71-a3b10732e5e4
+                                                    56775a54-5671
                                                 </h3>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    56775a54-5671-42c7-9d71-a3b10732e5e4
+                                                    56775a54-5671
                                                 </h3>
                                             </header>
                                             <footer className="flex items-center">
@@ -135,35 +135,13 @@ export default function PipelineCheck() {
                                         <article className="bg-gray-500 dark:bg-gray-400 text-teal-300 dark:text-teal-700 flex flex-col h-full">
                                             <header>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    prod-turosi-thomastown-linux
+                                                    B-AI-Detecting
                                                 </h3>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    56775a54-5671-42c7-9d71-a3b10732e5e4
+                                                    56775a54-5671
                                                 </h3>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    56775a54-5671-42c7-9d71-a3b10732e5e4
-                                                </h3>
-                                            </header>
-                                            <footer className="flex items-center">
-                                                <div className="grid grid-col-1 text-md">
-                                                    <p className="text-lg">10/22/2020 00:30:00</p>
-                                                    <p className="text-lg">10/22/2020 01:00:00</p>
-                                                </div>
-                                            </footer>
-                                        </article>
-                                    </div>
-
-                                    <div className={['3', '0'].includes(product) ? undefined : 'hidden'}>
-                                        <article className="bg-gray-500 dark:bg-gray-400 text-teal-300 dark:text-teal-700 flex flex-col h-full">
-                                            <header>
-                                                <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    prod-turosi-thomastown-linux
-                                                </h3>
-                                                <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    56775a54-5671-42c7-9d71-a3b10732e5e4
-                                                </h3>
-                                                <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    56775a54-5671-42c7-9d71-a3b10732e5e4
+                                                    56775a54-5671
                                                 </h3>
                                             </header>
                                             <footer className="flex items-center">
@@ -179,13 +157,13 @@ export default function PipelineCheck() {
                                         <article className="bg-gray-500 dark:bg-gray-400 text-teal-300 dark:text-teal-700 flex flex-col h-full">
                                             <header>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    prod-turosi-thomastown-linux
+                                                    Simple Testing
                                                 </h3>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    56775a54-5671-42c7-9d71-a3b10732e5e4
+                                                    56775a54-5671
                                                 </h3>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    56775a54-5671-42c7-9d71-a3b10732e5e4
+                                                    56775a54-5671
                                                 </h3>
                                             </header>
                                             <footer className="flex items-center">
@@ -201,13 +179,35 @@ export default function PipelineCheck() {
                                         <article className="bg-gray-500 dark:bg-gray-400 text-teal-300 dark:text-teal-700 flex flex-col h-full">
                                             <header>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    prod-turosi-thomastown-linux
+                                                    Simple Testing
                                                 </h3>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    56775a54-5671-42c7-9d71-a3b10732e5e4
+                                                    56775a54-5671
                                                 </h3>
                                                 <h3 className="text-2xl font-red-hat-display mb-2">
-                                                    56775a54-5671-42c7-9d71-a3b10732e5e4
+                                                    56775a54-5671
+                                                </h3>
+                                            </header>
+                                            <footer className="flex items-center">
+                                                <div className="grid grid-col-1 text-md">
+                                                    <p className="text-lg">10/22/2020 00:30:00</p>
+                                                    <p className="text-lg">10/22/2020 01:00:00</p>
+                                                </div>
+                                            </footer>
+                                        </article>
+                                    </div>
+
+                                    <div className={['3', '0'].includes(product) ? undefined : 'hidden'}>
+                                        <article className="bg-gray-500 dark:bg-gray-400 text-teal-300 dark:text-teal-700 flex flex-col h-full">
+                                            <header>
+                                                <h3 className="text-2xl font-red-hat-display mb-2">
+                                                    Simple Testing
+                                                </h3>
+                                                <h3 className="text-2xl font-red-hat-display mb-2">
+                                                    56775a54-5671
+                                                </h3>
+                                                <h3 className="text-2xl font-red-hat-display mb-2">
+                                                    56775a54-5671
                                                 </h3>
                                             </header>
                                             <footer className="flex items-center">

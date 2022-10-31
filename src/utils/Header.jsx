@@ -267,13 +267,13 @@ export default function Header() {
 											<li key={_} className="py-2 my-2 border-b border-gray-200 dark:border-gray-800">
 												<span className="flex text-gray-600 dark:text-gray-400 py-2">{each.start} - List</span>
 												<ul className="pl-4 mb-2">
-													{each.each.map((comp, idx) => (
+													{each.each.map((ea, idx) => (
 														<li key={idx}>
 															<Link
-																to={`${comp.path}`}
+																to={`${ea.path}`}
 																className="text-sm flex font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 py-2"
 															>
-																{comp.name}
+																{ea.name}
 															</Link>
 														</li>
 													))}

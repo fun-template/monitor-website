@@ -84,7 +84,7 @@ export default function Footer() {
                                         <Link className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="/Official-Website">Lumachain.io</Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="/Pipeline-ETL">Pipeline ETL</Link>
+                                        <Link className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="/Pipeline-ETL">Pipeline</Link>
                                     </li>
                                     <li className="mb-1">
                                         <Link className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="/report">Report</Link>

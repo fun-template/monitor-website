@@ -4,7 +4,7 @@ import photo from '../../../assets/Lumachain-icon-AITraining.jpg'
 
 export default function CameraCheck({ comName }) {
 
-    const [product, setProduct] = useState('1');
+    const [product, setProduct] = useState('0');
 
     return (
         <div>
@@ -26,14 +26,21 @@ export default function CameraCheck({ comName }) {
                                 <div className="mb-8">
                                     <h4 className="h4 font-red-hat-display mb-5">Connection Device</h4>
                                     <ul className="-my-3">
+                                        <button className="flex py-3 border-b border-gray-200 dark:border-gray-800 hover:underline" onClick={() => setProduct('0')}>
+                                            <article>
+                                                <h3 className="font-red-hat-display font-bold tracking-tight mb-1">
+                                                    View All
+                                                </h3>
+                                            </article>
+                                        </button>
 
                                         <button className="flex py-3 border-b border-gray-200 dark:border-gray-800 hover:underline" onClick={() => setProduct('1')}>
                                             <article>
                                                 <h3 className="font-red-hat-display font-bold tracking-tight mb-1">
-                                                    bf3fec72-39c6-414d-97d8-7ba70df00514-line3-outside
+                                                    bf3fde
                                                 </h3>
                                                 <div className="text-sm text-gray-500">
-                                                    192.584.1.1
+                                                    192.0.0.0
                                                 </div>
                                             </article>
                                         </button>
@@ -41,10 +48,10 @@ export default function CameraCheck({ comName }) {
                                         <button className="flex py-3 border-b border-gray-200 dark:border-gray-800 hover:underline" onClick={() => setProduct('2')}>
                                             <article>
                                                 <h3 className="font-red-hat-display font-bold tracking-tight mb-1">
-                                                    bf3fec72-39c6-414d-97d8-7ba70df00514-line3-outside
+                                                    bf3fde
                                                 </h3>
                                                 <div className="text-sm text-gray-500">
-                                                    192.584.1.1
+                                                    192.0.0.0
                                                 </div>
                                             </article>
                                         </button>
@@ -52,10 +59,10 @@ export default function CameraCheck({ comName }) {
                                         <button className="flex py-3 border-b border-gray-200 dark:border-gray-800 hover:underline" onClick={() => setProduct('3')}>
                                             <article>
                                                 <h3 className="font-red-hat-display font-bold tracking-tight mb-1">
-                                                    bf3fec72-39c6-414d-97d8-7ba70df00514-line3-outside
+                                                    bf3fde
                                                 </h3>
                                                 <div className="text-sm text-gray-500">
-                                                    192.584.1.1
+                                                    192.0.0.0
                                                 </div>
                                             </article>
                                         </button>
@@ -67,7 +74,7 @@ export default function CameraCheck({ comName }) {
                             <div className="lg:grow">
                                 <div className="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:gap-x-6 md:gap-y-8 items-start">
 
-                                    <div className={['1'].includes(product) ? undefined : 'hidden'}>
+                                    <div className={['1', '0'].includes(product) ? undefined : 'hidden'}>
                                         <article className="text-teal-400 dark:text-teal-700 flex flex-col h-full">
                                             <header>
                                                 <figure className="relative h-0 pb-9/16">
@@ -78,7 +85,7 @@ export default function CameraCheck({ comName }) {
                                         </article>
                                     </div>
 
-                                    <div className={['2'].includes(product) ? undefined : 'hidden'}>
+                                    <div className={['2', '0'].includes(product) ? undefined : 'hidden'}>
                                         <article className="text-teal-400 dark:text-teal-700 flex flex-col h-full">
                                             <header>
                                                 <figure className="relative h-0 pb-9/16">
@@ -89,7 +96,7 @@ export default function CameraCheck({ comName }) {
                                         </article>
                                     </div>
 
-                                    <div className={['2'].includes(product) ? undefined : 'hidden'}>
+                                    <div className={['2', '0'].includes(product) ? undefined : 'hidden'}>
                                         <article className="text-teal-400 dark:text-teal-700 flex flex-col h-full">
                                             <header>
                                                 <figure className="relative h-0 pb-9/16">
@@ -100,7 +107,7 @@ export default function CameraCheck({ comName }) {
                                         </article>
                                     </div>
 
-                                    <div className={['3'].includes(product) ? undefined : 'hidden'}>
+                                    <div className={['3', '0'].includes(product) ? undefined : 'hidden'}>
                                         <article className="text-teal-400 dark:text-teal-700 flex flex-col h-full">
                                             <header>
                                                 <figure className="relative h-0 pb-9/16">
@@ -111,7 +118,7 @@ export default function CameraCheck({ comName }) {
                                         </article>
                                     </div>
 
-                                    <div className={['3'].includes(product) ? undefined : 'hidden'}>
+                                    <div className={['3', '0'].includes(product) ? undefined : 'hidden'}>
                                         <article className="text-teal-400 dark:text-teal-700 flex flex-col h-full">
                                             <header>
                                                 <figure className="relative h-0 pb-9/16">
@@ -122,7 +129,7 @@ export default function CameraCheck({ comName }) {
                                         </article>
                                     </div>
 
-                                    <div className={['3'].includes(product) ? undefined : 'hidden'}>
+                                    <div className={['3', '0'].includes(product) ? undefined : 'hidden'}>
                                         <article className="text-teal-400 dark:text-teal-700 flex flex-col h-full">
                                             <header>
                                                 <figure className="relative h-0 pb-9/16">

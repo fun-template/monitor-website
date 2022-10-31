@@ -52,7 +52,7 @@ export default function Report() {
 								<div className="flex flex-wrap -mx-3 mb-5">
 									<div className="w-full px-3">
 										<label className="block text-gray-800 dark:text-gray-300 text-sm font-medium mb-1" htmlFor="time">Time <span className="text-red-600">*</span></label>
-										<input id="time" type="text" className="form-input w-full" placeholder="Enter module ID" required />
+										<input id="time" type="date" className="form-input w-full" placeholder="Select Time" required />
 									</div>
 								</div>
 
